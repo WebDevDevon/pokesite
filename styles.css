@@ -123,7 +123,6 @@ html {
   .cards { grid-template-columns: repeat(4, 1fr); }
 }
 
-
 .footer {
   position: relative;
   max-height: 250px;
@@ -185,17 +184,14 @@ html {
   top: 12px;
 }
 
-
 @media screen and (max-width: 900px) {
   .setName{width: 350px;}
   .title {font-size: 35px !important; top: 20px; }
 }
 
-
 @media screen and (max-width: 1050px) {
   .gallery {padding-left: 30px;}
 }
-
 
 .sides {
   color: rgba(255, 255, 255, 0.39);
@@ -226,15 +222,12 @@ html {
   max-width: 260px;
 }
 
-
 /* card set cards*/
-
 
 .setSeries {
   margin: auto;
   display: block;
 }
-
 
 .modal-content{
   border-radius: 15px !important;
