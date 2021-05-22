@@ -110,17 +110,15 @@ html {
   .card { height: 250px;}
 }
 
-/* Screen larger than 600px? 2 column */
 @media (min-width: 480px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 
-  /* Screen larger than 900px? 3 columns */
 @media (min-width: 800px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
   
 }
 }
-/* Screen larger than 900px? 3 columns */
+
 @media (min-width: 1060px) {
   .cards { grid-template-columns: repeat(4, 1fr); }
 }
