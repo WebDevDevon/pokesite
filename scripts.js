@@ -13,6 +13,7 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
+
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -44,7 +45,6 @@ image.addEventListener('mouseout', function() {
   image.style.height = "50px";
 });
 
-
 /* navbar */
 
 var nav = document.querySelector('.topnav')
@@ -57,9 +57,6 @@ window.onscroll = function(){
     nav.style.background = "rgb(32, 32, 32)";
   }
 }
-
-
-
 
 //Contact Page
 
@@ -75,7 +72,6 @@ function sendMail(params) {
     console.log("success", res.status);
   })
 }
-
 
 /* submit button*/
 
