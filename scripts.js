@@ -18,8 +18,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-
-
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -29,14 +27,10 @@ function myFunction() {
     }
 }
 
-
-
 /*logo */
 
 var emojiSmile = "/pokeicon.png";
 var emojiThink = "/openicon.png";
-
-
 var image = document.querySelector('.ball')
 image.src = emojiSmile; // set default
 
