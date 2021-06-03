@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="openicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="homestyles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_GUnC3Jd4mNfBBDIdvBSwx");
+    })();
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>PkmnSets</title>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="con">
+      <img src="pics\pngaaa.com-381080.png" class="ball" href="#home">
+    </a>
+    <a href="/Contact.html" class="links">Contact</a>
+    <a href="#promos" data-toggle="tooltip" data-placement="left" title="Coming Soon" class="links">Promos</a>
+  </div>
+  <div class="banner"></div>
+
+
+  <section id="footer">
+    <div class="container">
+      <div id="form-main">
+        <div id="form-div">
+          <div class="contact">Contact Me</div>
+          <div class="montform" id="reused_form">
+            <input name="name" type="text" class="feedback-input" required placeholder="Name" id="toName" />
+            <input name="email" type="email" required class="feedback-input" id="fromName" placeholder="Email" />
+            <textarea name="message" type="text" class="feedback-input" id="msg" placeholder="Message"></textarea>
+            <a href="javascript:delay('/home.html')" onclick="sendMail()" class="button">
+              <div class="container">
+                <div class="tick">
+                  Submit
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div id="error_message" style="width:100%; height:100%; display:none; ">
+            <h4>
+              Error
+            </h4>
+            Sorry there was an error sending your form.
+          </div>
+          <div id="success_message" style="width:100%; height:100%; display:none; ">
+            <h2>Success! Your Message was Sent Successfully.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div class="term">
+      <p>The literal and graphical information presented on this website about the Pokémon Trading Card Game,
+        including card images and text, is copyright The Pokémon Company (Pokémon), Nintendo, Game Freak, Creatures,
+        and/or Wizards.
+        This website is not produced by, endorsed by, supported by, or affiliated with Pokémon, Nintendo, Game Freak,
+        Creatures, or Wizards.
+      </p>
+      <p>This website was made to be a project in my Web Developer porfolio, In the future I hope to implement PSA sold
+        listing prices and more.</p>
+      <p>All other content © 2021 PkmnSets.</p>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
