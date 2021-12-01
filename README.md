@@ -16,4 +16,4 @@ As it is now all you can view is just the english sets, If I had more time/In th
 
 ## Lessons Learned:
 
-I learned sometimes loading of some pages are slow, I used the full size source image rather than compressing the preview image (something to go back an update).
+I learned sometimes loading of some pages are slow, I used the full size source image rather than compressing the preview image (something to go back to and update).
