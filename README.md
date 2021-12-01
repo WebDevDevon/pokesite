@@ -1,6 +1,6 @@
 # Pokemon sets website-2021
 
-[![Alt text for your video](preview.gif)]
+[!(preview.gif)]
 
 HTML5, CSS3, Bootstrap, Javascript, Fancybox - Pokemon site where you can view all english set releases in gallery form.
 
