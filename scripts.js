@@ -1,3 +1,21 @@
+/*logo */
+
+var emojiSmile = "/pokeicon.png";
+var emojiThink = "/openicon.png";
+var image = document.querySelector('.ball')
+image.src = emojiSmile; // set default
+
+image.addEventListener('mouseover', function() {
+  image.src = emojiThink;
+  image.style.height = "75px";
+});
+
+image.addEventListener('mouseout', function() {
+  image.src = emojiSmile;
+  image.style.height = "50px";
+});
+
+
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
@@ -27,23 +45,6 @@ function myFunction() {
       x.className = "topnav";
     }
 }
-
-/*logo */
-
-var emojiSmile = "/pokeicon.png";
-var emojiThink = "/openicon.png";
-var image = document.querySelector('.ball')
-image.src = emojiSmile; // set default
-
-image.addEventListener('mouseover', function() {
-  image.src = emojiThink;
-  image.style.height = "75px";
-});
-
-image.addEventListener('mouseout', function() {
-  image.src = emojiSmile;
-  image.style.height = "50px";
-});
 
 /* navbar */
 
